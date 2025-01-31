@@ -1,0 +1,97 @@
+.services{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+ gap: 15px;
+}
+.box {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.servicess{
+    display: flex;
+    justify-content: center;
+}
+.skillss{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.title{
+    line-height: 25px;
+}
+.sercicefx{
+    position: fixed;
+    z-index: 1000;
+    inset: 0;
+    /* background-color: rgba(40, 40, 48, 0.91); */
+    backdrop-filter: blur(8px);
+}
+@keyframes mymove{
+    0%   {scale: 0; }
+    80%   {scale: 1.1; }
+ 90%   {scale: 1.05; }
+ 95%   {scale: 1.03; }
+
+  
+    100%   {scale: 1; }
+    }
+
+
+ .sercicefx ul.modal{
+    animation: mymove 0.7s 1;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color:var(--primary);
+}
+ .sercicefx ul.modal li{
+ border: none;
+    padding-bottom: 0.8rem;
+    padding-top: 0.5rem;
+ 
+}
+.sercicefx ul.modal li:first-child{
+  
+    margin-bottom: -2rem;
+}
+ .sercicefx ul.modal li:last-child{
+ border: none;
+}
+ .sercicefx ul.modal li a{
+   font-size: 1rem; 
+   color: aliceblue;
+}
+.close{
+padding: 8px;
+  background-color: rgba(40, 40, 48, 0.91); 
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    /* header.flex nav{display: none;}
+    header button.menu {
+    display: block; */
+}
+.father {
+
+display: flex;
+justify-content: flex-end;
+
+}
+    
+
+.modall {
+display: flex;
+justify-content:space-between;
+align-items: center;
+margin-bottom: 20px;
+
+}

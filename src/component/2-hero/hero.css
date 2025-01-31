@@ -1,0 +1,40 @@
+rem section.hero {
+  margin-top: 1rem;
+}
+.hero {
+  margin-top: 30px;
+}
+
+section .left-section {
+  flex-grow: 1;
+}
+section.hero .avatar {
+  width: 140px;
+  border-radius: 50%;
+  border: 1px solid rgb(61, 56, 42);
+  padding: 1px;
+  box-shadow: 1px 1px 40px rgba(203, 200, 200, 0.586) inset;
+}
+section.hero h2.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 25px 0;
+  color: var(--title);
+}
+section.hero p.sub-title {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.55rem;
+  margin-bottom: 35px;
+}
+section.hero .all-icons {
+  font-size: 1.6rem;
+  gap: 1.5rem;
+  color: var(--subtitle);
+}
+section.hero .all-icons i:hover {
+  scale: 1.2;
+  transition: 0.3s;
+  cursor: pointer;
+  color: var(--icon-hover);
+}

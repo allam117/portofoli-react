@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+:root {
+  --primary: #000;
+  --secondary: rgb(24 24 27);
+  --border: rgba(63, 63, 70, 0.4);
+  --title: rgb(244, 244, 245);
+  --subtitle: rgb(161, 161, 170);
+  --bgHeader: rgb(39, 39, 52);
+  --blue: rgb(93, 188, 252);
+  --icon-hover: #d4d4d8;
+}
+.light {
+  --primary: #fff;
+}
+body {
+  background-color: var(--primary);
+  color: #fff;
+}
+.container {
+  border: 2px solid var(--border);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary);
+  padding: 0 4rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.border{
+  /* border: 1px solid red; */
+}
+
+/************header**************/
+
+.divider {
+  border-bottom: 1px solid var(--border);
+  margin: 20px 0px;
+  width: calc(100% + 1.5rem + 1.5rem);
+  margin-left: -1.5rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: initial;
+  transition: 0.2s;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.border {
+  font-size: 1.2rem;
+}
+button {
+  all: unset;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  scale: 0.85;
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    padding: 0 1.5rem;
+  }
+}
+
+
+::-webkit-scrollbar{
+  width: 0.9rem;
+}
+::-webkit-scrollbar-track{
+  border: 7px solid #232943;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(90deg,#9e409e #3d4a59);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(270deg #9e409e #3d4a59 #9e409e);
+}
+html{
+  scrollbar-color: #9e409e #3d4a59;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 98%;
+    padding: 0 1.5rem;
+  }
+}
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+/********About*********/

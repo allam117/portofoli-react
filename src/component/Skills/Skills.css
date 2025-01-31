@@ -1,0 +1,200 @@
+.skillsProg .skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.skillsProg .Technical{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.Technical{
+margin-bottom: 80px;
+margin-top: 7px;
+font-weight: 300;
+}
+.skillFather{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+ align-items: center;
+
+}
+.skillDes{
+    font-size: 13px;
+    color: #9FA2AD;
+    margin-right: 50px;
+}
+
+
+.skills-container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  width: 250PX;
+  overflow: hidden;
+  height: 5px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.progress {
+  background-color: #007bff;
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+  text-align: left;
+}
+.skillProg1-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.grid{
+      display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 70px;
+}
+
+.list1{
+ display: none;
+}
+
+
+.skills {
+  font-size: 2rem;
+}
+
+
+
+
+
+.mainSkills {
+
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.skillFather {
+  display: flex;
+ 
+  flex-direction: column;
+}
+
+.skillName {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.skillDes {
+  font-size: 1rem;
+  /* color: #777; */
+}
+
+.but1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+} */
+
+.list1.visible {
+  display: block;
+}
+
+.list1.hidden {
+  display: none;
+}
+
+.skillProg1,
+.skillProg2,
+.skillProg3,
+.skillProg4 {
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  /* background: #e0e0e0; */
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.progress {
+  height: 100%;
+  /* background: #4caf50; */
+  border-radius: 5px;
+}
+
+.skillProg1-name {
+  display: flex;
+  justify-content: space-between;
+}
+.father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.list1 {
+  display: none;
+}
+.list1.active {
+  display: block;
+}
+@media (max-width: 600px) {
+.grid{
+    flex-direction: column;
+gap: 3rem;
+align-items: center;
+}
+main section.left-section.flex{
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+}
+
+}
+.but1 {
+  transition: transform 0.3s ease;
+}
+
+.rotated i {
+  transform: rotate(180deg);
+}

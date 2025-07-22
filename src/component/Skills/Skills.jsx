@@ -1,11 +1,12 @@
-import  { useState } from "react";
+// 
+
+
+import { useState } from "react";
 import "./Skills.css";
 
 const Skills = () => {
-  // State to manage the active section
   const [activeSection, setActiveSection] = useState(null);
 
-  // Function to toggle the active class for a section
   const toggleElement = (section) => {
     setActiveSection((prev) => (prev === section ? null : section));
   };
@@ -15,6 +16,7 @@ const Skills = () => {
       <h2 className="skills">Skills</h2>
       <span className="Technical">Technical Level</span>
       <div className="grid">
+        {/* Tools & Technologies */}
         <div className="mainSkills">
           <div className="skillFather">
             <div className="fle">
@@ -72,7 +74,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Programming Section */}
+        {/* Programming */}
         <div className="mainSkills">
           <div className="skillFather">
             <div className="fle">
@@ -81,8 +83,10 @@ const Skills = () => {
                 <span className="skillDes">More than 1 Year</span>
               </div>
               <span
-                className={`but1 ${activeSection === "tools" ? "rotated" : ""}`}
-                onClick={() => toggleElement("tools")}
+                className={`but1 ${
+                  activeSection === "programming" ? "rotated" : ""
+                }`}
+                onClick={() => toggleElement("programming")}
               >
                 <i className="fa-solid fa-chevron-down"></i>
               </span>
@@ -132,7 +136,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Frontend Developer Section */}
+        {/* Frontend Developer */}
         <div className="mainSkills">
           <div className="skillFather">
             <div className="fle">
@@ -141,8 +145,10 @@ const Skills = () => {
                 <span className="skillDes">Experienced</span>
               </div>
               <span
-                className={`but1 ${activeSection === "tools" ? "rotated" : ""}`}
-                onClick={() => toggleElement("tools")}
+                className={`but1 ${
+                  activeSection === "frontend" ? "rotated" : ""
+                }`}
+                onClick={() => toggleElement("frontend")}
               >
                 <i className="fa-solid fa-chevron-down"></i>
               </span>
@@ -191,61 +197,6 @@ const Skills = () => {
             </ul>
           </div>
         </div>
-
-        {/* Backend Developer Section */}
-        {/* <div className="mainSkills">
-          <div className="skillFather">
-            <div className="fle">
-              <div>
-                <h3 className="skillName">Backend Developer</h3>
-                <span className="skillDes">More than 1 Year</span>
-              </div>
-              <span className="but1" onClick={() => toggleElement("backend")}>
-                <i className="fa-solid fa-chevron-down"></i>
-              </span>
-            </div>
-            <ul
-              className={`list1 ${activeSection === "backend" ? "active" : ""}`}
-            >
-              <li className="skillProg1">
-                <h3>Node.JS</h3>
-                <div className="skillProg1-name">
-                  <div className="progress-bar">
-                    <div className="progress" style={{ width: "60%" }}></div>
-                  </div>
-                  <span>60%</span>
-                </div>
-              </li>
-              <li className="skillProg2">
-                <h3>RESTful API</h3>
-                <div className="skillProg1-name">
-                  <div className="progress-bar">
-                    <div className="progress" style={{ width: "50%" }}></div>
-                  </div>
-                  <span>50%</span>
-                </div>
-              </li>
-              <li className="skillProg3">
-                <h3>Express.JS</h3>
-                <div className="skillProg1-name">
-                  <div className="progress-bar">
-                    <div className="progress" style={{ width: "75%" }}></div>
-                  </div>
-                  <span>75%</span>
-                </div>
-              </li>
-              <li className="skillProg4">
-                <h3>MongoDB</h3>
-                <div className="skillProg1-name">
-                  <div className="progress-bar">
-                    <div className="progress" style={{ width: "70%" }}></div>
-                  </div>
-                  <span>70%</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div> */}
       </div>
     </section>
   );

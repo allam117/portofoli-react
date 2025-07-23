@@ -37,7 +37,7 @@ function Header() {
         <i class="fa-solid fa-moon"></i>
       </button>
       {showModal && (
-        <div className=" fixed">
+        <div className="fixed">
           <ul className="modal border">
             <li className="border">
               <button
@@ -45,20 +45,28 @@ function Header() {
                   setShowModal(false);
                 }}
               >
-                <i class="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-xmark"></i>
               </button>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" onClick={() => setShowModal(false)}>
+                About
+              </a>
             </li>
             <li>
-              <a href="#skills">Learning</a>
+              <a href="#skills" onClick={() => setShowModal(false)}>
+                Learning
+              </a>
             </li>
             <li>
-              <a href="#project">Projects</a>
+              <a href="#project" onClick={() => setShowModal(false)}>
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={() => setShowModal(false)}>
+                Contact
+              </a>
             </li>
           </ul>
         </div>

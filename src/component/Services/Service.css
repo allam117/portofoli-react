@@ -95,3 +95,7 @@ align-items: center;
 margin-bottom: 20px;
 
 }
+
+#service{
+        color: var(--subtitle);
+}

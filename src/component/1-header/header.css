@@ -40,17 +40,17 @@ header button.menu {
     display: none;
 }
 button i{
-    /* background-color: var(--bgHeader); */
-    /* padding: 15px; */
-    /* border-radius: 50%; */
+    background-color: var(--bgHeader);
+    padding: 15px; 
+     border-radius: 50%;
     color:white;
-    /* border: 1px solid rgba(250, 128, 114, 0.215); */
+    border: 1px solid rgba(250, 128, 114, 0.215);
       transition: 0.3s;
 
 }
 button i:hover{
-   color: var(--title); 
-   /* border: 1px solid rgb(244, 165, 96); */
+  
+   border: 1px solid rgb(252, 206, 165);
    transition: 0.2s;
 }
 
@@ -60,7 +60,7 @@ header .fixed{
     z-index: 100;
     inset: 0;
     background-color: rgba(40, 40, 48, 0.91);
-    /* backdrop-filter: blur(8px); */
+    backdrop-filter: blur(8px);
 }
 @keyframes mymove{
     0%   {scale: 0; }
@@ -102,22 +102,11 @@ header .fixed ul.modal li a{
 
 @media (max-width: 700px) {
     header.flex nav{display: none;}
+ 
+
     header button.menu {
     display: block;
 }
 
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

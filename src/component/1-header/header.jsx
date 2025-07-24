@@ -1,7 +1,20 @@
-import  { useState } from 'react'
+import  { useEffect, useState } from 'react'
 import './header.css'
 function Header() {
   const [showModal,setShowModal] =useState(false);
+  const [theme, setTheme] = useState("dark");
+ useEffect(()=>{
+ if(theme =="light"){
+  document.body.classList.remove("dark");
+  document.body.classList.add("light");
+
+
+ }else{
+    document.body.classList.remove("light");
+    document.body.classList.add("dark");
+ }
+ },[theme])
+
 
   return (
     <header className=" flex">
@@ -33,8 +46,11 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <button>
-        <i class="fa-solid fa-moon"></i>
+      <button onClick={()=>{
+        localStorage.setItem("cuttentMode",theme ==="dark"? "light":"dark")
+        setTheme(localStorage.getItem("cuttentMode"));
+      }} className='mode flex'>
+        <i class="fa-solid fa-moon" ></i>
       </button>
       {showModal && (
         <div className="fixed">

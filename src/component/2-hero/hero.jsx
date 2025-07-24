@@ -28,6 +28,7 @@ function Hero() {
                 "_blank"
               )
             }
+            
             style={{ cursor: "pointer" }}
           >
             <i className="fa-brands fa-linkedin"></i>

@@ -26,14 +26,14 @@ font-weight: 300;
 }
 .skillDes{
     font-size: 13px;
-    color: #9FA2AD;
+    color: var(--subtitle);
     margin-right: 50px;
 }
 
 
 .skills-container {
   text-align: center;
-  background: #fff;
+  color: var(--subtitle);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -197,4 +197,7 @@ gap: 10px;
 
 .rotated i {
   transform: rotate(180deg);
+}
+.skillsProg{
+   color: var(--subtitle);
 }

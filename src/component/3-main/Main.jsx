@@ -1,15 +1,51 @@
-import React from 'react';
+import { useState } from 'react';
 import './main.css';
 
 function Main() {
+  const [currentActive, setcurrentActive] = useState("all");
   return (
     <main id="project" className="flex">
       <section className="flex  left-section ">
-        <button className="active">All Project</button>
-        <button>HTML&CSS</button>
-        <button>JavaScript</button>
-        <button>React & MUL</button>
-        <button>Node & Express</button>
+        <button
+          onClick={() => {
+            setcurrentActive("all");
+          }}
+          className={currentActive === "all" ? "active" : null}
+        >
+          All Project
+        </button>
+        <button
+          onClick={() => {
+            setcurrentActive("css");
+          }}
+          className={currentActive === "css" ? "active" : null}
+        >
+          HTML&CSS
+        </button>
+        <button
+          onClick={() => {
+            setcurrentActive("Java");
+          }}
+          className={currentActive === "Java" ? "active" : null}
+        >
+          JavaScript
+        </button>
+        <button
+          onClick={() => {
+            setcurrentActive("  React & MUL");
+          }}
+          className={currentActive === "  React & MUL" ? "active" : null}
+        >
+          React & MUL
+        </button>
+        <button
+          onClick={() => {
+            setcurrentActive("   Node & Express");
+          }}
+          className={currentActive === "   Node & Express" ? "active" : null}
+        >
+          Node & Express
+        </button>
       </section>
       <section className=" right-section flex  ">
         <article className="  card">

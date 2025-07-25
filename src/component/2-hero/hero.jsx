@@ -28,12 +28,14 @@ function Hero() {
                 "_blank"
               )
             }
-            
             style={{ cursor: "pointer" }}
           >
             <i className="fa-brands fa-linkedin"></i>
           </div>
-          <div className="icon-gitHup">
+          <div
+            className="icon-gitHup"
+            onClick={() => window.open("https://github.com/allam117", "_blank")}
+          >
             <i class="fa-brands fa-github"></i>
           </div>
           <div

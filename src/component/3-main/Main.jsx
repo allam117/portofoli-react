@@ -187,6 +187,43 @@ function Main() {
             </div>
           </div>
         </article>
+
+        <article className="  card">
+          <img width={260} height={130} src="./img/img5.png" alt="" />
+          <div style={{ width: "266px", height: "190px" }} className=" box">
+            <h1 className="title">To Do App</h1>
+            <p className="sub-title">
+              Daily Tasks Arrangement and Organization Project with react{" "}
+            </p>
+            <div className="flex icons">
+              <div style={{ gap: "11px" }} className="flex">
+                <div className="icon">
+                  <i class="fa-sharp-duotone fa-solid fa-link"></i>
+                </div>
+                <div className="getHup">
+                  {" "}
+                  <a
+                    href="https://github.com/allam117/To-Do-APP"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <a
+                className="link flex"
+                href="https://66ad0122a22e2a7aa6ea360e--famous-longma-a83d0e.netlify.app/"
+              >
+                more
+                <span style={{ alignSelf: "end" }} className="arrow">
+                  {" "}
+                  <i class="fa-solid fa-arrow-right"></i>{" "}
+                </span>
+              </a>
+            </div>
+          </div>
+        </article>
+
         <article className="  card">
           <img width={270} src="./img/adidas.png" alt="" />
           <div style={{ width: "266px", height: "190px" }} className=" box">

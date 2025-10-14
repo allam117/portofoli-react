@@ -51,7 +51,7 @@ function Main() {
         <article className="  card">
           <img width={270} src="./img/img1.png" alt="" />
           <div style={{ width: "266px", height: "190px" }} className=" box">
-            <h1 className="title">El Noor Electrical Project</h1>
+            <h2 className="title">El Noor Electrical Project</h2>
             <p className="sub-title">
               Al Noor Electrical Appliances Exhibition Project for selling
               electrical appliances
@@ -84,7 +84,7 @@ function Main() {
         <article className="  card">
           <img width={260} height={130} src="./img/img3.png" alt="" />
           <div style={{ width: "266px", height: "190px" }} className=" box">
-            <h1 className="title">Omnifood project</h1>
+            <h2 className="title">Omnifood project</h2>
             <p className="sub-title">
               Restaurant to display menu and customers
             </p>
@@ -119,7 +119,7 @@ function Main() {
         <article className="  card">
           <img width={270} src="./img/img2.png" alt="" />
           <div style={{ width: "266px", height: "190px" }} className=" box">
-            <h1 className="title">Dice game project</h1>
+            <h2 className="title">Dice game project</h2>
             <p className="sub-title">
               A dice game between two competitors so that one of them wins
             </p>
@@ -154,7 +154,7 @@ function Main() {
         <article className="  card">
           <img width={270} src="./img/img4.png" alt="" />
           <div style={{ width: "266px", height: "190px" }} className=" box">
-            <h1 className="title">Bankist project</h1>
+            <h2 className="title">Bankist project</h2>
             <p className="sub-title">
               Bankist project to display a person's balance and banking
               transactions
@@ -191,7 +191,7 @@ function Main() {
         <article className="  card">
           <img width={260} height={130} src="./img/img5.png" alt="" />
           <div style={{ width: "266px", height: "190px" }} className=" box">
-            <h1 className="title">To Do App</h1>
+            <h2 className="title">To Do App</h2>
             <p className="sub-title">
               Daily Tasks Arrangement and Organization Project with react{" "}
             </p>
@@ -225,12 +225,11 @@ function Main() {
         </article>
 
         <article className="  card">
-          <img width={270} src="./img/adidas.png" alt="" />
+          <img width={270} src="./img/salah.png" alt="" />
           <div style={{ width: "266px", height: "190px" }} className=" box">
-            <h1 className="title">Lorem, ipsum dolor</h1>
+            <h2 className="title">Prayer times</h2>
             <p className="sub-title">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Perspiciatis,
+              It is a program that determines the date and times of prayer.
             </p>
             <div className="flex icons">
               <div style={{ gap: "11px" }} className="flex">
@@ -240,14 +239,17 @@ function Main() {
                 <div className="getHup">
                   {" "}
                   <a
-                    href="https://github.com/allam117/shop.git"
+                    href="https://github.com/allam117/Prayer-times "
                     target="_blank"
                   >
                     <i class="fa-brands fa-github"></i>
                   </a>
                 </div>
               </div>
-              <a className="link flex" href="">
+              <a
+                className="link flex"
+                href="https://incomparable-frangipane-8a17f6.netlify.app/"
+              >
                 more
                 <span style={{ alignSelf: "end" }} className="arrow">
                   {" "}

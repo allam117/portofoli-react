@@ -248,7 +248,7 @@ function Main() {
               </div>
               <a
                 className="link flex"
-                href="prayer-times-1a50zg94w-allam117s-projects.vercel.app"
+                href="https://prayer-times-lovat.vercel.app/"
               >
                 more
                 <span style={{ alignSelf: "end" }} className="arrow">

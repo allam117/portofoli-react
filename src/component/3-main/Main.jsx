@@ -239,7 +239,7 @@ function Main() {
                 <div className="getHup">
                   {" "}
                   <a
-                    href="https://github.com/allam117/Prayer-times "
+                    href="prayer-times-1a50zg94w-allam117s-projects.vercel.app"
                     target="_blank"
                   >
                     <i class="fa-brands fa-github"></i>

@@ -239,7 +239,7 @@ function Main() {
                 <div className="getHup">
                   {" "}
                   <a
-                    href="prayer-times-1a50zg94w-allam117s-projects.vercel.app"
+                    href="https://github.com/allam117/Prayer-times "
                     target="_blank"
                   >
                     <i class="fa-brands fa-github"></i>
@@ -248,7 +248,7 @@ function Main() {
               </div>
               <a
                 className="link flex"
-                href="https://incomparable-frangipane-8a17f6.netlify.app/"
+                href="prayer-times-1a50zg94w-allam117s-projects.vercel.app"
               >
                 more
                 <span style={{ alignSelf: "end" }} className="arrow">
